@@ -1,0 +1,44 @@
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, 270px);
+    padding: 1ch;
+    align-items: start;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    font-size: 2ch;
+    border-radius: 1ch;
+}
+.grid-item > button {
+    border-radius: 1ch;
+    padding: 1ch;
+    min-height: 640px;
+    max-height: 640px;
+}
+.grid-item > button > img {
+    width: 100%;
+    height: auto;
+    border-radius: 2ch;
+}
+.grid-item > button > p {
+    text-align: left;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.grid-item > button > p > span{
+    text-align: left;
+    font-weight: normal;
+}
+
+.grid-item > button > ul {
+    text-align: left;
+    font-weight: normal;
+    overflow: auto;
+    height: 234px;
+    min-height: 234px;
+    max-height: 234px;
+}

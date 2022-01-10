@@ -23,6 +23,7 @@ body {
 }
 
 .wrapper {
+    background-image: url("../images/bg_pic.jpg"); 
     display: flex;
     flex-flow: column;
     width: 100%;
@@ -42,7 +43,6 @@ header {
 }
 
 main {
-    background-image: url("../images/bg_pic.jpg"); 
     flex: auto;
     display: flex;
     width: 100%;
@@ -56,6 +56,7 @@ main {
     display: flex;
     flex-flow: column;
     width: 100%;
+    height: fit-content;
     justify-content: flex-start;
 }
 
@@ -63,4 +64,6 @@ footer {
     flex: none;
     text-align: center;
     font-family: sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
 }

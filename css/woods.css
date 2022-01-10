@@ -3,7 +3,6 @@
     display: flex;
     flex-flow: column;
     width: 100%;
-    height: 100%;
     border-radius: 2ch;
 }
 
@@ -17,6 +16,7 @@
     width: 100%;
     padding-left: 4ch;
     padding-right: 4ch;
+    padding-bottom: 4ch;
 }
 
 .woods-info > img {
