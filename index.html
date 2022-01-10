@@ -45,6 +45,15 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
-    <script type="text/javascript" src="js/main.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("#main_container_id").load(`./pages/page_0/page_0.html`);
+        for (let i = 0; i < 5; i++) {
+          $(`#page_${i}`).click(function() {
+            $("#main_container_id").load(`./pages/page_${i}/page_${i}.html`);
+          });
+        }
+      });
+    </script>
   </body>
 </html>
