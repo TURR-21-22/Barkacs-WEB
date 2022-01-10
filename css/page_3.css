@@ -2,8 +2,10 @@
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fit, 270px);
-    padding: 1ch;
     align-items: start;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 2ch;
+    padding: 2ch;
 }
 .grid-item {
     background-color: rgba(255, 255, 255, 0.8);

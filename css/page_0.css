@@ -3,6 +3,9 @@
     flex-flow: column;
     align-items: center;
     justify-content: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 2ch;
+    padding: 2ch;
 }
 
 .page_0-top {
