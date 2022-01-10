@@ -1,0 +1,43 @@
+.woods-wrapper {
+    background-color: rgba(255,255, 255, 0.5);
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: 100%;
+    border-radius: 2ch;
+}
+
+.woods-title {
+    text-align: center;
+    font-size: 4ch;
+    font-weight: bold;
+}
+
+.woods-info {
+    width: 100%;
+    padding-left: 4ch;
+    padding-right: 4ch;
+}
+
+.woods-info > img {
+    width: 20ch;
+    height: 20ch;
+    border: 4px solid black;
+    border-radius: 50%;
+    margin: 2ch;
+    float: left;
+    shape-outside: circle();
+}
+
+.woods-info > p {
+    font-size: large;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.woods-table {
+    padding-left: 4ch;
+    padding-right: 4ch;
+    overflow: auto;
+    font-weight: bold;
+}

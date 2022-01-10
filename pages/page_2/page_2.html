@@ -1,1 +1,42 @@
 <link type="text/css" rel="stylesheet" href="css/page_2.css">
+<div class="grid-container">
+    <div class="grid-item">
+        <button id="page_2_0">
+            <img src="./images/woods/Bukk.jpg" alt="Bükk">
+        </button>
+        <p>Bükk</p>
+    </div>
+    <div class="grid-item">
+        <button id="page_2_1">
+            <img src="./images/woods/Cseresznye.jpg" alt="Cseresznye">
+        </button>    
+        <p>Cseresznye</p>
+    </div>
+    <div class="grid-item">
+        <button id="page_2_2">
+            <img src="./images/woods/Dio.jpg" alt="Dió">
+        </button>    
+        <p>Dió</p>
+    </div>
+    <div class="grid-item">
+        <button id="page_2_3">
+            <img src="./images/woods/Mahagoni.jpg" alt="Mahagoni">
+        </button>
+        <p>Mahagóni</p>
+    </div>
+    <div class="grid-item">
+        <button id="page_2_4">
+            <img src="./images/woods/Tolgy.jpg" alt="Tölgy">
+        </button>
+        <p>Tölgy</p>
+    </div>
+</div>
+<script>
+    $(document).ready(function() {
+    for (let i = 0; i < 5; i++) {
+         $(`#page_2_${i}`).click(function() {
+            $("#main_container_id").load(`./pages/page_2/woods/page_${i}.html`);
+         });
+    }
+});
+</script>

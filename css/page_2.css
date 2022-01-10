@@ -1,0 +1,32 @@
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, 270px);
+    padding: 1ch;
+}
+.grid-item {
+    display: flex;
+    flex-flow: column;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.grid-item > button {
+    border-radius: 50%;
+    padding: 0.5ch;
+}
+.grid-item > p {
+    margin: 1ch;
+    padding: 1ch;
+    background-color: dodgerblue;
+    font-size: 3ch;
+    border-radius: 1ch;
+    border: 1px solid white;
+}
+.grid-item > button > img {
+    width: 100%;
+    height: auto;
+    border: 4px solid black;
+    border-radius: 50%;
+}
